@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(226, 222, 222);
+    height: 600px;
+    margin: auto;
+    width: 750px;
+}
+
+.header {
+    text-align: center;
+    padding: 40px 0;
+}
+.obj {
+    text-align: justify;
+}
+.email {
+    color: green;
+}
+
+div {
+    margin-left: 40px;
+}
+.green {
+    color: green;
+}
+.name {
+    font-size: 45px;
+}
+
+/* Extra styling */
+body {
+    background-color: linear-gradient(to left top, blue, red);
+}
+.name {
+        transition: ease-in;
+        transition-duration: 3s;
+            animation: email 3s 3;
+}
+@keyframes email {
+    0%{
+        transform:translateX(20px)
+    }
+    25%{
+        transform:translateX(40px)
+    }
+    70%{
+        transform:translateX(70px)
+    }
+    100%{
+        transform:translateX(100px)
+    }
+}
